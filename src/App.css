@@ -1,6 +1,7 @@
 :root {
   --primary-color: #f09678;
   --secondary-color: #f2b7ac;
+  --third-color: #fbd3d3;
 }
 
 * {
@@ -38,6 +39,7 @@ nav ul li {
   background-color: var(--secondary-color);
   color: white;
   height: 750px;
+  margin: 0;
 }
 
 .second h1 {
@@ -56,8 +58,9 @@ nav ul li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
+  width: 70%;
   margin: 20px;
+  margin-top: 4em;
 }
 
 .second-container img {
@@ -66,4 +69,113 @@ nav ul li {
 
 .second-text {
   width: 40%;
+  text-align: left;
+}
+
+.third {
+  background-color: var(--primary-color);
+  color: white;
+  height: 750px;
+}
+
+.third h1 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* 
+* {
+  box-sizing: border-box;
+} */
+
+html {
+  font-family: sans-serif;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(99vh);
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+section {
+  /* border-bottom: 1px solid white; */
+  /* padding: 1rem; */
+  height: 99vh;
+  scroll-snap-align: start;
+  text-align: center;
+  position: relative;
+}
+
+.Project1 {
+  height: 450px;
+  width: 23%;
+  padding: 1em;
+  background-color: white;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Project {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3em;
+  color: black;
+}
+
+.project-img {
+  width: 100%;
+  height: 25vh;
+  border-radius: 10px;
+
+}
+
+.Project-title button {
+  background-color: var(--third-color);
+  padding: 10px;
+  width: 100px;
+  letter-spacing: 1px;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.5em;
+}
+
+.Project-title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  align-items: center;
+
+}
+
+.Project1 p {
+  width: 320px;
+  padding-top: 0.5em;
+  text-align: justify;
+  padding-bottom: 20px;
+  color: rgb(32, 32, 32);
+}
+
+#git-button {
+  background-color: var(--secondary-color);
+  padding: 15px;
+  width: 200px;
+  border: none;
+  border-radius: 0.5em;
+  font-weight: 900;
+  align-self: center;
+}
+
+.forth {
+  background-color: var(--secondary-color);
+  color: white;
+  margin: 0;
+  height: 750px;
+  text-align: center;
+  page-break-after: auto;
+}
+
+.forth h1 {
+  text-align: center;
+  padding-top: 40px;
 }
