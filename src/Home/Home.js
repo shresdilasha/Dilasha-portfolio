@@ -134,14 +134,9 @@ function Home() {
             </section>
             <section >
                 <div class="forth">
-                    <h1>Contact Me</h1>
-                    <div class="contact">
-                        <div class="contact-form">
-                            <Contact />
-                        </div>
-                        <div class="contact-info">
 
-                        </div>
+                    <div class="contact">
+                        <Contact />
                     </div>
                 </div>
             </section>
