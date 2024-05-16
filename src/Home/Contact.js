@@ -17,14 +17,16 @@ const Contact = () => {
           </div>
         </ul>
       </div>
-      <div class="send-info">
+      <div class="send-info" >
         <h1>Get in touch</h1>
         <br></br>
-        <form>
+        <form action="mailto:dilasha.shrestha.967@gmail.com" method="post" enctype="text/plain">
           <input type='text' id='Name' name='Name' placeholder='Enter you full name.' />
-          <input type='text' id='email' name='email' placeholder='Enter valid email.' />
+          <input type='email' id='email' name='email' placeholder='Enter valid email.' />
           <textarea id='msg' name='msg' placeholder='Enter message.' rows={10} cols={50} />
+          <input type='submit' id='submit' name='submit' value='Submit' />
         </form>
+
       </div>
     </div>
 

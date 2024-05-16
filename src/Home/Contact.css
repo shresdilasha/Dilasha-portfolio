@@ -6,12 +6,14 @@
 }
 
 input[type='text'],
+input[type='email'],
 textarea {
     display: block;
     padding: 1em;
     border-radius: 0.5em;
     margin: 1em;
     width: 60%;
+    border: white;
 
 }
 
@@ -20,6 +22,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 
 }
 
@@ -59,4 +62,14 @@ form {
     align-items: start;
     text-align: left;
 
+}
+
+#submit {
+    border: none;
+    padding: 1em;
+    width: 20%;
+    border-radius: 0.56em;
+    font-size: 15px;
+    background-color: #f09678;
+    color: white;
 }

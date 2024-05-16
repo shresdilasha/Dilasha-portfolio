@@ -45,6 +45,18 @@ function Home() {
         <div>
             <section>
                 <div class="first">
+                    <div class="cube">
+                    </div>
+                    <div class="cube">
+                    </div>
+                    <div class="cube">
+                    </div>
+                    <div class="cube">
+                    </div>
+                    <div class="cube">
+                    </div>
+                    <div class="cube">
+                    </div>
                     <nav>
                         <ul>
                             <li>Home</li>
